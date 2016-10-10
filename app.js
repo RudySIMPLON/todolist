@@ -2,8 +2,29 @@ $('.lundi').click(function(){
 question = $('.lund').val();
 $('.tache1').append("<li>"+question+"</li>");
 
-})
+});
 
+$('.mardi').click(function(){
+question = $('.mard').val();
+$('.tache2').append("<li>"+question+"</li>");
+
+});
+
+$('.mercredi').click(function(){
+question = $('.mercre').val();
+$('.tache3').append("<li>"+question+"</li>");
+
+});
+$('.jeudi').click(function(){
+question = $('.jeud').val();
+$('.tache4').append("<li>"+question+"</li>");
+
+});
+$('.vendredi').click(function(){
+question = $('.vendre').val();
+$('.tache5').append("<li>"+question+"</li>");
+
+});
 
 
 
