@@ -1,4 +1,17 @@
+body.dark {
+
+	background-color: #a5dff9;
+	font-family: 'Open Sans', sans-serif;
+
+}
+
 li {
 
 	color: red;
+}
+
+.done {
+
+	color:green;
+	text-decoration: line-through;
 }
