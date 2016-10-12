@@ -8,7 +8,7 @@ $('input').keyup(function(e) {
 			$('ul').append();
 		} else {  
 			$('ul').append("<li>"+question+"</li>"); }
-			console.log(question); 
+		
 		}
 	});
 $('.button').click(function(){
@@ -17,7 +17,7 @@ $('.button').click(function(){
 		$('ul').append();
 	} else {  
 		$('ul').append("<li>"+question+"</li>"); }
-		console.log(question); 
+	 
 
 	});
 
