@@ -8,6 +8,8 @@ body.dark {
 li {
 
 	color: red;
+	list-style: none; 
+
 }
 
 .done {
