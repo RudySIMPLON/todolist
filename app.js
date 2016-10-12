@@ -39,5 +39,17 @@ $("input").click(function(){
 })
 
 
+$('.btn1').on('click',function(){
+$('li').show();
+$('li.done').show();
+});
 
+$('.btn2').on('click',function(){
+$('li').show();
+$('li.done').hide();
+});
 
+$('.btn3').on('click',function(){
+$('li').hide();
+$('li.done').show();
+});
